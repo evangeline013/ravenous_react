@@ -61,16 +61,18 @@
   text-align: center;
 }
 
-.SearchBar-submit a {
+.SearchBar-submit button {
+  text-decoration: none;
   border-radius: 4px;
   padding: .72rem 1.7rem;
   background-color: #cca353;
   color: #ffffff;
+  font-size: .77rem;
   font-weight: 600;
   transition: background-color .5s;
 }
 
-.SearchBar-submit a:hover {
+.SearchBar-submit button:hover {
   cursor: pointer;
   background-color: #a7874b;
 }
